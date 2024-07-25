@@ -1,4 +1,4 @@
-package com.djaba.practice.producer_consumer_problem.dhalchenko.simple_solution;
+package dhalchenko.simple_solution;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.djaba.practice.multi_threaded_data_processing.ymalakhov;
+package ymalakhov;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

@@ -1,4 +1,4 @@
-package com.djaba.practice.multi_threaded_data_processing.ymalakhov;
+package ymalakhov;
 
 import java.io.BufferedReader;
 import java.io.File;

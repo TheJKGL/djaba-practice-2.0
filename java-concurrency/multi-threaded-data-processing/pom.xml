@@ -5,28 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.djaba-practice</groupId>
-        <artifactId>djaba-practice-2.0</artifactId>
+        <artifactId>java-concurrency</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>java-concurrency</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>multi-threaded-data-processing</module>
-    </modules>
+    <artifactId>multi-threaded-data-processing</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
-        </dependency>
-    </dependencies>
 
 </project>

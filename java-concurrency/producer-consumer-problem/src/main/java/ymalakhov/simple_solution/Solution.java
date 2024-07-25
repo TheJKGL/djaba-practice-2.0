@@ -1,4 +1,4 @@
-package com.djaba.practice.producer_consumer_problem.ymalakhov.simple_solution;
+package ymalakhov.simple_solution;
 
 import java.util.LinkedList;
 
