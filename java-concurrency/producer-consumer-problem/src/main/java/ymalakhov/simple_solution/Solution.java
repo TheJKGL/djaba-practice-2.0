@@ -8,8 +8,6 @@ public class Solution {
         solution.run();
     }
 
-    //1. Why we need to use while loop to call wait()?
-    //2.
     public void run() {
         Buffer buffer = new Buffer(5);
         Producer producer = new Producer(buffer);
@@ -88,8 +86,8 @@ public class Solution {
     }
 
     private class Buffer {
-        private LinkedList<String> messageBuffer;
-        private int maxSize;
+        private final LinkedList<String> messageBuffer;
+        private final int maxSize;
 
         public Buffer(int size) {
             this.maxSize = size;
@@ -105,12 +103,10 @@ public class Solution {
         }
 
         public String pop() {
-            maxSize--;
             return messageBuffer.removeLast();
         }
 
         public String push(String message) {
-            maxSize++;
             messageBuffer.add(message);
             return message;
         }

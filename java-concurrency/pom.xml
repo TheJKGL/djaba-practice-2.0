@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>multi-threaded-data-processing</module>
+        <module>producer-consumer-problem</module>
     </modules>
 
     <properties>
